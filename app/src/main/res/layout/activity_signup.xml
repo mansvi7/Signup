@@ -32,6 +32,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/inputn"
             android:textSize="23dp">
 
         </com.google.android.material.textfield.TextInputEditText>
@@ -53,7 +54,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="23dp">
+            android:textSize="23dp"
+            android:id="@+id/inputusername">
 
         </com.google.android.material.textfield.TextInputEditText>
 
@@ -74,7 +76,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="23dp">
+            android:textSize="23dp"
+            android:id="@+id/inputemail">
 
         </com.google.android.material.textfield.TextInputEditText>
 
@@ -96,7 +99,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="23dp">
+            android:textSize="23dp"
+            android:id="@+id/inputpass">
 
         </com.google.android.material.textfield.TextInputEditText>
 
@@ -117,24 +121,36 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="23dp">
+            android:textSize="23dp"
+            android:id="@+id/inputp">
 
         </com.google.android.material.textfield.TextInputEditText>
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.button.MaterialButton
+<Button
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="30dp"
         android:text="Submit"
+        android:id="@+id/sub"
         android:textSize="22dp"
-        android:layout_below="@+id/pass">
+        android:layout_below="@+id/pass"/>
 
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:id="@+id/login"
+        android:layout_marginLeft="150dp"
+        android:text="log in"
+        android:background="@color/cardview_shadow_end_color"
+        android:textSize="20dp"
+        android:textColor="#0343E5">
 
-    </com.google.android.material.button.MaterialButton>
+    </Button>
 
 
 
